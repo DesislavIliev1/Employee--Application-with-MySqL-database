@@ -50,7 +50,7 @@ public class EmployeeService {
         int monthlySalary = scan.nextInt();
         Employee emp = new Employee(id ,fullName,email,phoneNumber,dateOfBirth,monthlySalary);
         empSet.add(emp);
-        dbEmployeeService.createEmployee(emp);
+
 
         System.out.println("Employee successfully created!");
 
